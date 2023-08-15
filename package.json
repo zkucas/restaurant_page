@@ -1,0 +1,35 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "basic page for a famous restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zkucas/restaurant_page.git"
+  },
+  "keywords": [
+    "restaurant"
+  ],
+  "author": "Ziggy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zkucas/restaurant_page/issues"
+  },
+  "homepage": "https://github.com/zkucas/restaurant_page#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}
