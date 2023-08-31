@@ -7,7 +7,7 @@ const mainLayout = createLayout();
 
 
 function rem(){
-    const allx = document.querySelector('.topbg')
+    const allx = document.querySelector('.pcontent')
     const allx2 = allx.querySelectorAll(":scope > *")
     
     if (allx2.length > 0){
@@ -15,6 +15,7 @@ function rem(){
             e.classList.add('hide')
         })
     }
+
 }
 
 
@@ -26,6 +27,10 @@ mainLayout.menu.addEventListener("click", e =>{
 mainLayout.contact.addEventListener("click", e =>{
     rem()
     createContact()
+})
+
+mainLayout.h1.addEventListener("click", e =>{
+    rem()
 })
 
 
